@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoginTest</string>
+
+    <string name="facebook_app_id">284792355304909</string>
+
+    <string name="welcome">Bienvenido</string>
+    <string name="cancel_login">Se canceló la operación</string>
+    <string name="error_login">Ocurrió un error al ingresar</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="firebase_error_login">Error al iniciar sesión en Firebase</string>
+
+    <string name="not_log_in">No se pudo iniciar sesión</string>
+    <string name="log_out">Log Out</string>
+    <string name="revoke">Revoke</string>
+    <string name="not_close_session">No se pudo cerrar sesión</string>
+    <string name="not_revoke">No se pudo revocar el acceso</string>
+    <string name="not_firebase_auth">No se pudo autenticar con Firebase</string>
+</resources>

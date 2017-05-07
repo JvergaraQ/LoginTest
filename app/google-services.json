@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14941928501",
+    "firebase_url": "https://loginstest-7f3a6.firebaseio.com",
+    "project_id": "loginstest-7f3a6",
+    "storage_bucket": "loginstest-7f3a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14941928501:android:f99dbd6a5505e24c",
+        "android_client_info": {
+          "package_name": "com.example.javo.loginstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14941928501-3s8crisnkso656tup532tk76nukrpnp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnCtwdb0J5k6geYFY8qEn3z0CWT8tm3PE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

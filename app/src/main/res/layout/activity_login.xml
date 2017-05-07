@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.javo.loginstest.LoginActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/loginButton"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="119dp"
+    android:text="LOGIN TEST"
+    android:textSize="30sp"
+    android:layout_above="@+id/linearLayout"
+    android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/linearLayout">
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="17dp"
+            android:paddingTop="17dp"
+            android:layout_marginBottom="208dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/textView" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/signInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/loginButton"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginBottom="33dp"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>
